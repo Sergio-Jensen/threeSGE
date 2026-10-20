@@ -1,0 +1,10 @@
+# Local system and R session files
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local package build and check outputs
+*.tar.gz
+*.Rcheck/

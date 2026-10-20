@@ -1,0 +1,21 @@
+Package: threeSGE
+Type: Package
+Title: Three-Stage Graph Estimation
+Version: 0.1.0
+Authors@R: person("Sergio", "Developer", email = "sergio@sjtu.edu.cn",
+    role = c("aut", "cre"))
+Description: Estimates subgraph count expectations and variances
+    using WISS algorithm and PWU framework, and performs motif
+    verification with 3SGE strategy.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Suggests:
+    igraph,
+    tidygraph
+Collate:
+    'common.R'
+    'ISS.R'
+    'VISS.R'
+    'enumerate.R'
+    'TSGE.R'
